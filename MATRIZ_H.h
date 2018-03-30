@@ -2,7 +2,7 @@
 #define MATRIZ_H
 
 #include<limits.h>
-#include<stdlib.h>
+#include<iostream>
 
 #define TAMANHO_MATRIZ 5
 
@@ -74,9 +74,7 @@ int maiorValorEmMatriz(int matriz[TAMANHO_MATRIZ][TAMANHO_MATRIZ], int escopoBus
 		}
 		break;
 
-	case 5:
-		exit(0);// adicionei a funcao stdlib caso o usuario digite a tecla 5 (SAIR), o programa fecha.
-		break;
+	
 	}
 
 	return maiorMatriz;
@@ -142,9 +140,7 @@ int menorValorEmMatriz(int matriz[TAMANHO_MATRIZ][TAMANHO_MATRIZ], int escopoBus
 			}
 		}
 		break;
-	case 5:
-		exit(0);
-		break;
+	
 	}
 	return menorMatriz;
 }
