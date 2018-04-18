@@ -1,0 +1,11 @@
+GERACAOMAPA
+gerar mapa com uma matriz 13x13 
+Nas Sala 2 existe um escudo (dar a opção se quer pegar)
+Na Sala 4 existe uma Espada.(dar a opção se quer pegar)
+
+
+
+EXIBICAO MAPA
+
+	quando for necessario, será exibido o mapa 
+para mostrar onde o usuario está.
